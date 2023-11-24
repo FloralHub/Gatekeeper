@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FloralHub.Gatekeeper.Api", "src\FloralHub.Gatekeeper.Api\FloralHub.Gatekeeper.Api.csproj", "{FAEE06FF-B264-409C-AAA8-3C805221A0CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FloralHub.Gatekeeper.Core", "src\FloralHub.Gatekeeper.Core\FloralHub.Gatekeeper.Core.csproj", "{75B5B656-84D3-4314-A817-BC57784C3D46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloralHub.Gatekeeper.Core", "src\FloralHub.Gatekeeper.Core\FloralHub.Gatekeeper.Core.csproj", "{75B5B656-84D3-4314-A817-BC57784C3D46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloralHub.Gatekeeper.Api", "src\FloralHub.Gatekeeper.Api\FloralHub.Gatekeeper.Api.csproj", "{33E73F37-2CEF-4540-978E-0F120C4E1E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1F6E502-CE09-4733-8535-6B7D3235A0CB}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{75B5B656-84D3-4314-A817-BC57784C3D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{75B5B656-84D3-4314-A817-BC57784C3D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B5B656-84D3-4314-A817-BC57784C3D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B5B656-84D3-4314-A817-BC57784C3D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E73F37-2CEF-4540-978E-0F120C4E1E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E73F37-2CEF-4540-978E-0F120C4E1E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E73F37-2CEF-4540-978E-0F120C4E1E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E73F37-2CEF-4540-978E-0F120C4E1E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

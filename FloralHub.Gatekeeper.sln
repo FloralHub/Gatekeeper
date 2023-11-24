@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FloralHub.Gatekeeper.Api", "src\FloralHub.Gatekeeper.Api\FloralHub.Gatekeeper.Api.csproj", "{FAEE06FF-B264-409C-AAA8-3C805221A0CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FloralHub.Gatekeeper.Core", "src\FloralHub.Gatekeeper.Core\FloralHub.Gatekeeper.Core.csproj", "{75B5B656-84D3-4314-A817-BC57784C3D46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEE06FF-B264-409C-AAA8-3C805221A0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B5B656-84D3-4314-A817-BC57784C3D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B5B656-84D3-4314-A817-BC57784C3D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B5B656-84D3-4314-A817-BC57784C3D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B5B656-84D3-4314-A817-BC57784C3D46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D360B0A7-0B8E-4280-9DDE-A8F0ABA0F51F}
+	EndGlobalSection
+EndGlobal
